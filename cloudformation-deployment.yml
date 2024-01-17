@@ -32,7 +32,6 @@ Resources:
     Type: AWS::CertificateManager::Certificate
     Properties:
       DomainName: merveriskin.com
-      #      SubjectAlternativeNames:
       #        - merveriskin.com
       DomainValidationOptions:
         - DomainName: merveriskin.com
