@@ -32,7 +32,6 @@ Resources:
     Type: AWS::CertificateManager::Certificate
     Properties:
       DomainName: merveriskin.com
-      # For non-Route 53 options, drop the DomainValidationOptions
       #      SubjectAlternativeNames:
       #        - merveriskin.com
       DomainValidationOptions:
