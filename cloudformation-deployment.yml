@@ -32,7 +32,6 @@ Resources:
     Type: AWS::CertificateManager::Certificate
     Properties:
       DomainName: merveriskin.com
-      #        - merveriskin.com
       DomainValidationOptions:
         - DomainName: merveriskin.com
           HostedZoneId: !Ref HostedDnsZoneId
